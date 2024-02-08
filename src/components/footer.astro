@@ -1,0 +1,32 @@
+---
+import { Counter } from './Counter';
+
+---
+
+
+<footer>
+    <h2>
+        Maldito footer
+    </h2>
+    <strong>Hola esto es un footer</strong>
+    <Counter transition:persist client:visible />
+</footer>
+
+
+
+<style>
+    footer {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border: 1px solid rgb(248, 248, 248);
+        border-radius: 5px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+</style>
